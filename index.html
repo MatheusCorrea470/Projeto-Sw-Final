@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Star Wars - Escolha seu personagem</title>
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/anakin.jpg" alt="Personagem Anakin Skywalker">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Anakin Skywalker</h2>
+                <p class="descricao">Anakin Skywalker é uma figura essencial na saga Star Wars™. Um destemido Cavaleiro Jedi da República Galáctica, ele foi um comandante heroico em A Guerra dos Clones, antes de entrar para o lado negro e passar a ser chamado de Darth Vader.</p>
+            </div>
+
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/obi.jpg" alt="Personagem Obi Wan Kenobi">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Obi Wan Kenobi</h2>
+                <p class="descricao">Obi-Wan Kenobi, mais tarde conhecido também como Ben Kenobi durante seu exílio, foi um Humano Mestre Jedi que serviu à República Galáctica. Ele foi mentor de tanto de Anakin Skywalker quanto seu filho, Luke, treinando-os nos caminhos da Força.</p>
+            </div>
+
+        </div>
+
+        <div class="personagem selecionado">
+            <img class="imagem" src="./src/imagens/yoda.jpg" alt="Personagem Yoda">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Mestre Yoda</h2>
+                <p class="descricao">De 300 ABY até 19 ABY ele treinou quase todos os Jedi da Galáxia — como Grande Mestre, ele instruia todos os Younglings do Templo Jedi antes deles serem adotados por um mestre, tendo Anakin Skywalker sido uma exceção quanto a isso.
+
+                    O estudante mais importante de Yoda foi Luke Skywalker, o qual Yoda treinou para ser o futuro da Ordem após a sua quase completa destruição após a execução da Ordem 66. Tendo treinado o primeiro membro da Nova Ordem Jedi, Yoda serviu como canal entre as duas ordens, preservando a chama Jedi para uma próxima geração.</p>
+            </div>
+
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/ahsoka.jpg" alt="Personagem Ahsoka Tano">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Ahsoka Tano</h2>
+                <p class="descricao">Ahsoka Tano foi apresentada ao público como a jovem Padawan de Anakin Skywalker. Ela lutou ao lado dele e de outros Jedi nas batalhas da Guerra dos Clones, onde se destacou por suas habilidades únicas e determinação. No entanto, sua jornada na Ordem Jedi foi marcada por um evento que mudaria sua vida para sempre.</p>
+            </div>
+
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/luke.jpg" alt="Personagem Luke Skywalker">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Luke Skywalker</h2>
+                <p class="descricao">Filho de Anakin Skywalker, Luke, afastado de seu pai e vivendo nos confins da galáxia, se encontrou em uma jornada após conhecer o velho mestre Ben Kenobi, que treinou seu pai no passado, com apenas um novo objetivo, saiu em busca de se tornar um jedi, até que descobrira que seu pai na verdade se tornara seu maior inimigo e apenas o amor e a esperança poderiam salva-lo do lado sombrio da força</p>
+            </div>
+
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/jedia.png" alt="Anakin">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/jedio.png" alt="ObiWan">
+            </button>
+        </li>
+        <li>
+            <button class="botao selecionado">
+                <img src="./src/imagens/jediy.png" alt="Yoda">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/jediT.png" alt="Ahsoka">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./src/imagens/jedi.png" alt="Luke">
+            </button>
+        </li>
+    </ul>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
